@@ -1,5 +1,4 @@
 # HTML-Beginner
-teaching material for DCT HTML class
 
 大家好
 
@@ -12,6 +11,7 @@ teaching material for DCT HTML class
 編輯器切記使用純文字編輯器，不要用Office word或是Page之類的排版工具
 
 這門課推薦使用的編輯器是[Visual Studio Code](https://code.visualstudio.com/)
+
 或是其他
 - Notepad++
 - Sublime
@@ -23,7 +23,8 @@ teaching material for DCT HTML class
 
 ### 瀏覽器 Browser
 
-可以正常瀏覽網頁的瀏覽器都可以，個人推薦[Firefox](https://www.mozilla.org/zh-TW/firefox/new/)
+可以正常瀏覽網頁的瀏覽器都可以，個人推薦[Firefox](https://www.mozilla.org/zh-TW/firefox/new/)!
+
 或是其他
 - Safari
 - Chrome
@@ -35,11 +36,13 @@ teaching material for DCT HTML class
 
 > 特別是Safari, Chrome
 
-### 網路
+### 網路 Internet
 
-學習寫網頁網路並非必要的，但有問題立刻收尋是很重要的
+學習寫網頁網路並非必要的，但有問題立刻收尋並解決是很重要的
 
-### 即時編輯器 
+或是看看別人的網頁、自己覺得厲害的網頁是怎麼寫出來的
+
+### 即時編輯器 Real Time HTML Editor
 
 想要網頁版的編輯器可以用這個玩玩看: [Real Time HTML Editor](https://yubintw.github.io/Real-Time-HTML-Editor/)
 
