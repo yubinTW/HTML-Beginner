@@ -126,6 +126,28 @@ title需要被定義在```<head>```中
 
 ## 常見標籤
 
+### 標題 h1, h2, h3, h4, h5, h6
 
+表示文件中的標題(headings)
+
+```<h1>```代表最重要的標題，```<h6>```表示最不重要的標題
+
+在主流瀏覽器中，```<h1>```預設顯示的字體大小最大，```<h2>```次之，依此類推
+
+```html
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+<h4>This is heading 4</h4>
+<h5>This is heading 5</h5>
+<h6>This is heading 6</h6> 
+```
+
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+<h4>This is heading 4</h4>
+<h5>This is heading 5</h5>
+<h6>This is heading 6</h6> 
 
 ### HTML
