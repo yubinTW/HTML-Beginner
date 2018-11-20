@@ -177,3 +177,24 @@ title需要被定義在```<head>```中
 
 [a tag reference](https://www.w3schools.com/tags/tag_a.asp)
 
+### 圖片 img
+定義圖片(image)
+
+```html
+<img src="圖片URL" alt="替代文字">
+```
+
+#### src屬性
+```<img>```標籤最重要的屬性，必須能正確連結到要顯示的圖片資源，URL格式
+
+#### alt屬性
+替代文字，如果src屬性定義的目標資源無法正確拿到圖片，瀏覽器會顯示替代文字
+
+- ```<img>```標籤只有頭，沒有尾。不用寫```</img>```。
+- arc屬性與alt屬性都要定義
+
+```html
+<img src="https://scontent.ftpe8-3.fna.fbcdn.net/v/t31.0-8/25438742_380943475692311_4898207953166700082_o.jpg?_nc_cat=106&_nc_ht=scontent.ftpe8-3.fna&oh=6828cc16901681afdefcfb801d7b1f6f&oe=5C81C095" alt="肥橘">
+```
+
+[img tag reference](https://www.w3schools.com/tags/tag_img.asp)
