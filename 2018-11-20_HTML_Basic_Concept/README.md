@@ -128,7 +128,7 @@ title需要被定義在```<head>```中
 
 ### 標題 h1, h2, h3, h4, h5, h6
 
-表示文件中的標題(headings)
+定義標題(headings)
 
 ```<h1>```代表最重要的標題，```<h6>```表示最不重要的標題
 
@@ -143,6 +143,37 @@ title需要被定義在```<head>```中
 <h6>This is heading 6</h6> 
 ```
 
-<a href="https://www.w3schools.com/tags/tag_hn.asp" target="_blank">headings reference</a>
+[headings tag reference]("https://www.w3schools.com/tags/tag_hn.asp")
 
-### HTML
+### 段落 p
+
+定義段落(paragraph)
+
+```html
+<p>
+  人生短短幾個秋呀，不醉不罷休。東邊我的美人哪，西邊黃河流。來呀來個酒啊不醉不罷休，愁情煩事別放心頭。
+</p>
+```
+
+[p tag reference](https://www.w3schools.com/tags/tag_p.asp)
+
+### 超連結 a
+
+定義超連結(hyperlink)，用以跳轉到某個目標資源
+
+```html
+<a href="https://www.facebook.com/catfatorange/" target="_blank">肥橘</a>
+```
+
+#### href屬性
+定義該a標籤的跳轉目標，格式為URL
+
+#### target屬性
+定義從哪裡該起該目標連結
+
+常用target值：
+- ```_self```，預設值，在本頁面開啟連結
+- ```_blank```，開新分頁，在該分頁開啟連結
+
+[a tag reference](https://www.w3schools.com/tags/tag_a.asp)
+
