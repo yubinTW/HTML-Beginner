@@ -6,7 +6,7 @@
 
 ## 常見標籤
 
-[清單ol,ul、iframe、div、span](tag_ol,ul,iframe,div,span.md)
+[清單ol、ul、iframe、div、span](tag_ol,ul,iframe,div,span.md)
 
 # CSS 基本語法
 
