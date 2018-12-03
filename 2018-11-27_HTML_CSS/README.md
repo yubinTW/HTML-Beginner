@@ -46,7 +46,7 @@ h1 {
 
 # CSS Selector
 
-基本的三種selector，用來指定要對那些元素套用CSS的樣式
+基本的三種selector，用來指定要對哪些元素套用CSS的樣式
 
 - Element Selector
 - Id Selector
