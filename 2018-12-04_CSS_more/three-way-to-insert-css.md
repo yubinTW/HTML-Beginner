@@ -1,6 +1,6 @@
 # Three Ways to Insert CSS
 
-在HTML文件中使用CSS有三種方式
+在HTML文件中使用CSS有三種方式
 - internal
 - external
 - inline
