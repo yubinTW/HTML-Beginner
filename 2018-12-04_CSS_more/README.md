@@ -22,7 +22,7 @@
 
 利用```:hover```Selector，搭配CSS中的```transform```及```transition```來產生互動感
 
-(簡單互動)[hover-selector,transform,transition.md]
+[簡單互動](hover-selector,transform,transition.md)
 
 ## Three Ways to Insert CSS
 
@@ -34,4 +34,4 @@
 
 CSS的定義會有優先度的差別
 
-[priority](css-priority.md)
+[priority](css-priority.md)
