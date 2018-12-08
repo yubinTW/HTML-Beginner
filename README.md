@@ -4,6 +4,22 @@
 
 這個repo放一些交大傳科HTML的教材、還有一些範例 (之類的)
 
+## 參考
+
+這裡放一些好用的網站，可以當教學或參考
+
+- [W3S-HTML](https://www.w3schools.com/html/default.asp)
+  - 官方教材，有每個標籤的介紹及使用
+  - 包含各個參數、支援版本，主要作為工具書查詢
+  - 英文，用字簡單，有大量範例
+- [W3S-CSS](https://www.w3schools.com/css/default.asp)
+  - 官方教材，重要的CSS資訊
+  - 涵蓋各個屬性、各個參數說明，還有實用技巧、範例
+- [learnlayout](http://zh-tw.learnlayout.com/)
+  - 大量的排版技巧、知識
+  - 要先有CSS基礎
+  - 中文，寫的簡單易懂
+
 ## 工具
 
 ### 編輯器 Editor
