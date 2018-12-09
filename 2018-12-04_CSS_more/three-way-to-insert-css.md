@@ -70,6 +70,6 @@ reference: [W3S: <link> tag](https://www.w3schools.com/tags/tag_link.asp)
 
 # 總結三種方式
 
-- internal style sheet，寫在```<style>```標籤中。
+- internal style sheet，把CSS敘述寫在```<style>```標籤中。
 - external style sheet，利用```<link>```標籤引入其他.css文件。
 - inline ，在HTML元素的```style```屬性中定義CSS樣式。
