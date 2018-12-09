@@ -35,7 +35,7 @@ p {
 }
 ```
 
-在同一層目錄的HTML文件中，透過```<link>```標籤，指定href屬性
+在同一層目錄的HTML文件中，透過```<link>```標籤，指定href與rel屬性
 
 ```html
 <head>
@@ -46,9 +46,15 @@ p {
 </body>
 ```
 
-> ```<link>```標籤的href屬性，定義css檔案的資源在哪，可以寫相對路徑或絕對路徑
+**href屬性**
+定義css檔案的資源在哪，可以寫相對路徑或絕對路徑
+
+**rel屬性**
+定義link的文件與當前文件的關係
 
 External的方式非常重要，可以將HTML與CSS進行分離，也可以讓CSS的定義重複使用在不同HTML文件中。
+
+reference: [W3S: <link> tag](https://www.w3schools.com/tags/tag_link.asp)
 
 ## inline
 
