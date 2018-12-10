@@ -50,11 +50,11 @@ p {
 定義css檔案的資源在哪，可以寫相對路徑或絕對路徑
 
 **rel屬性**
-定義link的文件與當前文件的關係
+定義link的文件與當前文件的關係，對象為CSS檔案時，用```rel="stylesheet"```來表示該文件是樣式描述檔(stylesheet)
 
-External的方式非常重要，可以將HTML與CSS進行分離，也可以讓CSS的定義重複使用在不同HTML文件中。
+External的方式**非常重要**，可以將HTML與CSS進行分離，也可以讓CSS的定義重複使用在不同HTML文件中。
 
-reference: [W3S: <link> tag](https://www.w3schools.com/tags/tag_link.asp)
+reference: [W3S: link tag](https://www.w3schools.com/tags/tag_link.asp)
 
 ## inline
 
