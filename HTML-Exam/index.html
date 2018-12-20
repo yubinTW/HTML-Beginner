@@ -68,7 +68,7 @@
             <button type="submit" class="btn btn-primary btn-block" onclick="startQuiz();">開始作答</button>
         </div>
         <div id='exam' class="hide">
-            <iframe src="https://goo.gl/forms/XiRS7mVVmCz9gSAD3" frameborder="0"></iframe>
+            <iframe src="https://goo.gl/forms/AT8lcOJwo11UK9am2" frameborder="0"></iframe>
         </div>
     </div>
     
@@ -100,8 +100,8 @@
         var passing = document.querySelector('#passing');
 
         // Firebase Object
-        var logRef = firebase.database().ref(`/2018-12-11_Exam/${sid}/log/`);
-        var timeRef = firebase.database().ref(`/2018-12-11_Exam/${sid}/answerTime/`);
+        var logRef = null;
+        var timeRef = null;
 
         // do something in every second
         setInterval(() => {
@@ -143,6 +143,8 @@
 
         function startQuiz() {
             sid = document.querySelector('#sid').value;
+            logRef = firebase.database().ref(`/2018-12-11_Exam/${sid}/log/`);
+            timeRef = firebase.database().ref(`/2018-12-11_Exam/${sid}/answerTime/`);
             if (Number.isInteger(parseInt(sid)) && sid.startsWith('0515')) {
                 showQuiz();
                 return true;
