@@ -53,7 +53,7 @@ display屬性是CSS排版的重要屬性，每個HTML元素都有一個預設的
 
 若```display: block;``` ，可以設定width、height來設定寬高，及上下左右的margin、padding值。
 
-若```dsplay: inline;```，無法利用width、height來設定寬高，元素的寬高取決於內容(如文字)。
+若```display: inline;```，無法利用width、height來設定寬高，元素的寬高取決於內容(如文字)。
 
 reference: [HTML Block and Inline Elements](https://www.w3schools.com/html/html_blocks.asp)
 

@@ -65,7 +65,7 @@
 替代文字，如果src屬性定義的目標資源無法正確拿到圖片，瀏覽器會顯示替代文字
 
 - ```<img>```標籤只有頭，沒有尾。不用寫```</img>```。
-- arc屬性與alt屬性都要定義
+- src屬性與alt屬性都要定義
 
 ```html
 <img src="https://scontent.ftpe8-3.fna.fbcdn.net/v/t31.0-8/25438742_380943475692311_4898207953166700082_o.jpg?_nc_cat=106&_nc_ht=scontent.ftpe8-3.fna&oh=6828cc16901681afdefcfb801d7b1f6f&oe=5C81C095" alt="肥橘">

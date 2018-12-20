@@ -35,7 +35,7 @@ p {
 }
 ```
 
-在同一層目錄的HTML文件中，透過```<link>```標籤，指定href屬性
+在同一層目錄的HTML文件中，透過```<link>```標籤，指定href與rel屬性
 
 ```html
 <head>
@@ -46,9 +46,15 @@ p {
 </body>
 ```
 
-> ```<link>```標籤的href屬性，定義css檔案的資源在哪，可以寫相對路徑或絕對路徑
+**href屬性**
+定義css檔案的資源在哪，可以寫相對路徑或絕對路徑
 
-External的方式非常重要，可以將HTML與CSS進行分離，也可以讓CSS的定義重複使用在不同HTML文件中。
+**rel屬性**
+定義link的文件與當前文件的關係，對象為CSS檔案時，用```rel="stylesheet"```來表示該文件是樣式描述檔(stylesheet)
+
+External的方式**非常重要**，可以將HTML與CSS進行分離，也可以讓CSS的定義重複使用在不同HTML文件中。
+
+reference: [W3S: link tag](https://www.w3schools.com/tags/tag_link.asp)
 
 ## inline
 
@@ -64,6 +70,6 @@ External的方式非常重要，可以將HTML與CSS進行分離，也可以讓CS
 
 # 總結三種方式
 
-- internal style sheet，寫在```<style>```標籤中。
+- internal style sheet，把CSS敘述寫在```<style>```標籤中。
 - external style sheet，利用```<link>```標籤引入其他.css文件。
 - inline ，在HTML元素的```style```屬性中定義CSS樣式。

@@ -2,7 +2,7 @@
 
 每個HTML元素都是長方形! 就像一個box。
 
-*Box Model 在HTML的排版上非常的重要*
+**Box Model 在HTML的排版上非常的重要**
 
 每一個HTML元素，看起來都長這樣
 
