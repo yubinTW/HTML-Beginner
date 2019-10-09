@@ -17,7 +17,7 @@
 <h6>This is heading 6</h6> 
 ```
 
-[headings tag reference]("https://www.w3schools.com/tags/tag_hn.asp")
+[headings tag reference](https://www.w3schools.com/tags/tag_hn.asp)
 
 ## 段落 p
 
